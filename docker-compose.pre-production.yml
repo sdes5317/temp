@@ -8,4 +8,4 @@ services:
     environment:
       - ASPNETCORE_ENVIRONMENT=PreProduction
     volumes:
-    - /appsettings.PreProduction.json:/app/appsettings.Production.json
+    - ~/docker/ctn-test/appsettings.PreProduction.json:/app/appsettings.Production.json
