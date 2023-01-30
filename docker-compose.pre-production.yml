@@ -7,3 +7,5 @@ services:
       - 30111:80
     environment:
       - ASPNETCORE_ENVIRONMENT=PreProduction
+    volumes:
+    - /appsettings.PreProduction.json:/app/appsettings.Production.json
