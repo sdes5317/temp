@@ -1,0 +1,9 @@
+version: "3.8"
+services:
+  container-tracker:
+    image: tester4bltwcp/container-tracker:v1.1.7.1
+    restart: always
+    ports:
+      - 30111:80
+    environment:
+      - ASPNETCORE_ENVIRONMENT=PreProduction
